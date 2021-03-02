@@ -1,0 +1,5 @@
+Serie [VARCHAR];Formation [VARCHAR];Description [TEXT]
+Mesozoic;Malm;calcaires à … etc
+Mesozoic;Dogger;Grès avec galets, etc. 
+Mesozoic;Lias;Schistes noirs à ammonites
+Paleozoic;carboniferous;Charbon, etc. 

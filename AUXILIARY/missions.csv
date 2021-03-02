@@ -1,0 +1,2 @@
+ID Mission [VARCHAR];Complete name [TEXT];Region [TEXT];Year [INT];Participants [TEXT];Project [VARCHAR]
+ALES_2021;Stage 3D Ales promo 2021;Cevenne;2021;M1 STPE - IPGP;
