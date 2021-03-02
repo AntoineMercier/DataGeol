@@ -1,0 +1,6 @@
+label [VARCHAR];description [TEXT]
+crist;step cristallisation
+riedel;riedel fractures
+str;striation
+stylo;stylolithes
+CS;cleavage/shear relationship

@@ -1,0 +1,18 @@
+label [VARCHAR];description [TEXT]
+fo;Foliation plane
+C;Shear plane
+j;join
+sj;Stylolithic joins
+AP;Fold axial plane
+F;Fault plane
+S0;Bedding plane
+Vein;Vein wall orientation
+Und;Undefined plane
+dy;Dykes wall orientation
+S0-1;Stratification parallel to schistosity/foliation plane S1
+S0v;Volcanic bedding plane
+S0m;Magmatic bedding plane
+frac;Fracture plane
+S1;Schistosity/cleavage plane - 1st generation
+S2;Schistosity/cleavage plane - 2nd generation
+foM;Magmatic foliation
