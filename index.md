@@ -1,3 +1,7 @@
+---
+classes: wide
+---
+
 DataGeol documentation
 ======================
 > Antoine Mercier, Philippe Hervé Leloup et Thomas Courrier
