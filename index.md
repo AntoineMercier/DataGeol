@@ -81,11 +81,6 @@ The first column of each table is controlled by the primary key, which maintain 
 The foreing key are links between tables. They maintain the referencial integrity between tables. 
 For example : a measure from the table 'measures' is linked to an existing station. The key checks that the station linked to the measure does exist. 
 
-Schema of the database
-----------------------
-
-![DataGeol Schema](DataGeol.png "DataGeol")
-
 Contact
 ----------
 
