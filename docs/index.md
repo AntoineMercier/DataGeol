@@ -65,15 +65,6 @@ You **MUST** ensure to insert the correct data type in each field.
 - [TIME] : Time format yyyy-mm-ddThh:mm:ssZ (given by the GPS).
 - [TEXT] : Character varying unlimited length
 
-* Stations : Defines the position where you have done the observations. From a station you can have done four different thing that correspond to four different tables : observation, measure, sampling or passage point. You **MUST** know location of the station in lat/lon. 
-
-	* Measures : Describes the geological measurement you have done in the field. You **MUST** declare the existing station in the station table where you have done the measurement. To type your orientation measurement you can use the 'strike-dip-quad' method or the 'dip-dir' method. Similarly for the lines you can use the 'pitch-quad' method or the 'dip-dir' method. 
- 
-	* Samples : Describes and organise the samples and their use for. You **MUST** declare the existing station in the station table where you have collected the sample. You can type the orientation of the sample and associate a measure to it. 
-
-	* Passage Point 
-
-
 Consistency of the tables and relationship (if the database is used in PGadmin)
 ------------------------------------------
 
