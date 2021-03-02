@@ -1,0 +1,4 @@
+title : DataGeol - Database for field geology
+theme: jekyll-theme-slate
+markdown: kramdown 
+show_downloads: true
