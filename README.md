@@ -20,10 +20,10 @@ Organisation/structure of the database
 |      ├── lexicon_planes.csv          # Lexicon defining the planes types
 |      ├── lexicon_samples.csv         # Lexicon defining the samples types
 |      └── lexicon_sens-criteria.csv   # Lexicon defining the sens criteria types
-	└── AUXILIARY            		# Folder organising auxiliary data
-|   	├── Geologists.csv          # Table containing the geologists names and notebooks
-|   	├── Missions.csv            # Table containing the missions names and participants
-└   	└── stratigraphic_pile.csv  # Table containing the stratigrapic pile
+|   └── AUXILIARY            	   # Folder organising auxiliary data
+|   	├── Geologists.csv             # Table containing the geologists names and notebooks
+|   	├── Missions.csv               # Table containing the missions names and participants
+└   	└── stratigraphic_pile.csv     # Table containing the stratigrapic pile
 ```
 
 Database basics
