@@ -1,0 +1,2 @@
+ID Map [VARCHAR];Complete name [TEXT];Type [VARCHAR];Year of publication [INT];Scale [VARCHAR];Authors [TEXT]
+ALES 912;Carte géologique de la France, feuille de ALES (n°912);geological;;1:50000;
