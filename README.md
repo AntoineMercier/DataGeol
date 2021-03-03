@@ -86,4 +86,4 @@ If you have any questions, comments,  remarks or suggestions, please let us know
 - Contact:	antoine.mercier@univ-lyon1.fr, philippe-herve.leloup@univ-lyon1.fr
 - version:	1.0
 
-Find the following documentation here[https://antoinemercier.github.io/DataGeol/]
+Find the following documentation [https://antoinemercier.github.io/DataGeol/](here) !
