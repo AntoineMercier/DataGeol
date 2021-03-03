@@ -2,3 +2,5 @@ title : DataGeol - Database for field geology
 theme: jekyll-theme-slate
 markdown: kramdown 
 show_downloads: true
+github:
+  is_project_page: false
