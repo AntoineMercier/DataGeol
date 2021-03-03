@@ -1,5 +1,5 @@
-DataGeol documentation
-======================
+Welcome to DataGeol documentation !
+==================================
 > Antoine Mercier, Philippe Hervé Leloup et Thomas Courrier
 
 DataGeol is a database that allows to organize, store and use geological data efficiently. Upon returning from a field mission, the user can enter the information he has noted in his field notebook in different dedicated tables (measurements, observations, samples, etc.). The different tables are organized and linked together, allowing data to be exported in different formats for processing or display.
