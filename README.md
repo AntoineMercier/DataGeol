@@ -1,4 +1,4 @@
-Welcome to DataGeol documentation
+Welcome to DataGeol documentation !
 ================================
 > Antoine Mercier 
 
