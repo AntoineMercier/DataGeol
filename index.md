@@ -88,21 +88,11 @@ Now the measures are associated to the stations.
 5. Load the SVG symbols into QGIS : Préférences >> options >> ajouter le chemin vers les symboles SVG.
 6. Load the style of the layer to display the symbols: clic droit sur la couche >> Propriétés >> en bas : style >> Charger le style : style_DataGeol_AM.qml
 
-Consistency of the tables and relationship (if the database is used in PGadmin)
-------------------------------------------
-
-**Primary key - tables consistency**
-The first column of each table is controlled by the primary key, which maintain the unicity of each row in the table. For example : the row describing the stations of the table *station* must be unique. 
-
-**Foreing key - tables relationship**
-The foreing key are links between tables. They maintain the referencial integrity between tables. 
-For example : a measure from the table 'measures' is linked to an existing station. The key checks that the station linked to the measure does exist. 
-
 Contact
 ----------
 
 If you have any questions, comments,  remarks or suggestions, please let us know : 
 
-- Author:	Antoine Mercier, Philippe Hervé Leloup. 
-- Contact:	antoine.mercier@univ-lyon1.fr, philippe-herve.leloup@univ-lyon1.fr
+- Author:	Antoine Mercier
+- Contact:	antoine.mercier@univ-lyon1.fr
 - version:	1.0
