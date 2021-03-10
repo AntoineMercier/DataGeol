@@ -83,8 +83,6 @@ Use in QGIS
 	- Type de jointure : un à un 
 	- Couche issue de la jointure : enregistrer en shapefile ou laisser en mémoire vive (mais attention, non sauvegardé si en mémoire vive).
 
-Now the measures are associated to the stations. 
-
 5. Load the SVG symbols into QGIS : Préférences >> options >> ajouter le chemin vers les symboles SVG.
 6. Load the style of the layer to display the symbols: clic droit sur la couche >> Propriétés >> en bas : style >> Charger le style : style_DataGeol_AM.qml
 
