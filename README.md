@@ -80,7 +80,7 @@ Use in QGIS
 	- Champ de la table : station
 	- Couche en entrée 2 : MEASURES
 	- Champ de la table : station
-	- Type de jointure : un à un 
+	- Type de jointure : "un à plusieurs" 
 	- Couche issue de la jointure : enregistrer en shapefile ou laisser en mémoire vive (mais attention, non sauvegardé si en mémoire vive).
 
 5. Load the SVG symbols into QGIS : Préférences >> options >> ajouter le chemin vers les symboles SVG.
