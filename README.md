@@ -86,6 +86,8 @@ Use in QGIS
 5. Load the SVG symbols into QGIS : Préférences >> options >> ajouter le chemin vers les symboles SVG.
 6. Load the style of the layer to display the symbols: clic droit sur la couche >> Propriétés >> en bas : style >> Charger le style : style_DataGeol_AM.qml
 
+NB : As the conection between QGIS and the table is done, when writting new data into the table STATIONS, they will appear automatically on QGIS. However the join betweeen the table MEASURES and the table STATIONS as to be renewed (steps 3 and 4) in order to display the orientations. Then you should writte all your data before displaying in on QGIS.
+
 Contact
 ----------
 
