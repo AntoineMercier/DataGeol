@@ -27,10 +27,17 @@ You **MUST** ensure to insert the correct data type in each field.
 - [TIME] : Time format yyyy-mm-ddThh:mm:ssZ (given by the GPS).
 - [TEXT] : Character varying unlimited length
 
+Tables
+------
+#### LEXICON
 
-LOCATION
---------
+#### MISSIONS
+
+#### MAPS
+
+#### LOCATION
 You can choose the position and elevation you want to use in the selected position. If no selection indicated, by default the first one will be used. 
+#### NOTEBOOK
 
 
 
