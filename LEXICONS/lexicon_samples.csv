@@ -1,7 +1,0 @@
-label [VARCHAR];description [TEXT]
-oriented;Oriented sample
-oriented upper face;Sample oriented on the upper face
-oriented lower face;Sample oriented on the lower face
-flying stone;Flying stone (not autochthonous)
-powder;Inconsistant sample (powder)
-sample;Non-oriented sample
