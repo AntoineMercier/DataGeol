@@ -1,4 +1,0 @@
-ID measure [VARCHAR];Station [VARCHAR];*Stratigraphic formation [VARCHAR];*Plane type [VARCHAR];Polarity [VARCHAR];Comment on plane [TEXT];Plane dip-dir (Hook) [INT];Plane azimuth [INT];Plane dip [INT];Plane dip quadrant [VARCHAR];*Line type [VARCHAR];Comment on line [TEXT];Line pitch [INT];Line pitch quadrant [VARCHAR];Line strike [INT];Line dip [INT];*Sens criteria [VARCHAR];Sens [VARCHAR];*Geologist [VARCHAR];Used in GeoModeller ? [VARCHAR];Structure measured [VARCHAR]
-1;A1;t10;S0;reverse;Surface ondulante;;50;72;SE;;;5;SW;;;;;;no;
-2;A1;l1;S1;;;;0;50;SW;;;;;;;;;;no;
-3;A2;l2;F;;plan net;30;;63;;str;stries bien visible;10;N;;;riedel;dextral;AM;yes;Faille des Cevennes
