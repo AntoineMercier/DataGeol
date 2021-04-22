@@ -1,2 +1,0 @@
-ID contact [VARCHAR];*Station [VARCHAR];*Type [VARCHAR];*Formation (atop) [VARCHAR];Used in GeoModeller ? [VARCHAR];Comment [TEXT];*Geologist [VARCHAR]
-1;A1;onlap;dogger;yes;Contact stratigraphique entre le lias et le dogger;AM
