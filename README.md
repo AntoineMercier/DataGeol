@@ -15,7 +15,6 @@ The benefits of storage data into a database :
 * Support and ensure the accuracy and integrity of your information.
 * Accomodates your data processing and reporting : needed ouputs. 
 
-
 Data types
 ---------
 
@@ -27,6 +26,11 @@ You **MUST** ensure to insert the correct data type in each field.
 - [INT] : Any integer number (ex: 45).
 - [TIME] : Time format yyyy-mm-ddThh:mm:ssZ (given by the GPS).
 - [TEXT] : Character varying unlimited length
+
+
+LOCATION
+--------
+You can choose the position and elevation you want to use in the selected position. If no selection indicated, by default the first one will be used. 
 
 
 
