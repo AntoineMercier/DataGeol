@@ -1,3 +1,0 @@
-Station [VARCHAR];Longitude [REAL];Latitude [REAL];Elevation (baro) [INT];Elevation (GPS) [INT];Time (aaa-mm-jj hh:mm:ss) [TIME];Position source [VARCHAR];General place [VARCHAR];*Mission [VARCHAR];*Outcrop type [VARCHAR];Facies [Text];*Geological map [VARCHAR];*Geological map formation [VARCHAR];Comment [TEXT];*Field notebook [VARCHAR];pages [INT]
-A1;6.005851;45.253625;110;102;2021-03-02T13:56:00Z;GPS Garmin OSUL;Gagniere;ALES_2021;outcrop;Calcaires;ALES;l9;;Cevennes 1;5
-A2;6.569211;45.653154;52;55;2021-03-02T15:06:10Z;GPS Garmin OSUL;Ales;ALES_2021;outcrop;Marnes a Amonnites;ALES;j1;;Cevennes 1;10
