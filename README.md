@@ -62,7 +62,7 @@ This table describes the lexicons used in the database, when a field has an " * 
 
 | Column               | Description                                                                 |
 |:---------------------|:----------------------------------------------------------------------------|
-| ID Map               | Short name describing the map. This name will be called by other columns    |          
+| ID Map               | Short name describing the map. This name will be called by other columns    |
 | Detailed name        | Longer name, describing precisely the map			             |
 | Type                 | Type of the map (geological of topographical)                               |
 | Year                 | Year of publication of the map      					     |
@@ -74,7 +74,7 @@ This table describes the lexicons used in the database, when a field has an " * 
 
 | Column                  | Description                                      				   		               			   		|
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| ID Station              | Identification of the station (ex : A1)            					               				   		|         
+| ID Station              | Identification of the station (ex : A1)            					               				   		|
 | Lon [1,2,3]             | Longitude in decimal degree in the WGS84 ellipsoid 					               		                   		|
 | Lat [1,2,3]             | Latitude in decimal degree in the WGS84 ellipsoid  				 	               				   		|
 | Elevation GPS [1,2,3]   | Elevation from the reference ellipsoid measured by GPS in meters   	               						   		|
@@ -85,8 +85,8 @@ This table describes the lexicons used in the database, when a field has an " * 
 | Mission                 | Name of the mission (indicated in column _ID Mission_ of the table **_Missions_**) 							        |
 | Outcrop type\*          | Type of the outcrop (described in **_Lexicon_** table)                       		       						|
 | Direction of observation| Azimuthal direction of the observation (for view point for example) in azimuthal degrees (ex : 265)       					|
-| Geologist               | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  							|       
-| Comment                 | Any comment  about the station (ex : along the cliff). 			    								|                      		       		     								
+| Geologist               | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  							|
+| Comment                 | Any comment  about the station (ex : along the cliff). 			    								|		       		     								
 #### NOTEBOOK
 
 Contact
