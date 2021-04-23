@@ -74,12 +74,12 @@ This table describes the lexicons used in the database, when a field has an " * 
 
 | Column               | Description                                                                 |
 |:---------------------|:----------------------------------------------------------------------------|
-| ID Map               | Short name describing the map. This name will be called by other columns    |
-| Detailed name        | Longer name, describing precisely the map			             |
-| Type                 | Type of the map (geological of topographical)                               |
-| Year                 | Year of publication of the map      					     |
-| Scale                | Scale of the map : format 1:50 000					     |
-| Authors              | Name of the authors that produced the map                                   |
+| ID Station               | Identification of the station (ex : A1)            					               				         |
+| Lon [1,2,3]              | Longitude in decimal degree in the WGS84 ellipsoid 					               		                   	 |
+| Lat [1,2,3]              | Latitude in decimal degree in the WGS84 ellipsoid  				 	               				   	 |
+| Elevation GPS [1,2,3]    | Elevation from the reference ellipsoid measured by GPS in meters   	               						   	 |
+| Elevation baro [1,2,3]   | Elevation from the reference ellipsoid measured by barometer in meters               					  		 |
+| Time [1.2,3]             | Time of the station (format yyyy-mm-ddThh:mm:ssZ)                        		       					   		 |
 
 Contact
 --------
