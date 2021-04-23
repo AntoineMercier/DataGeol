@@ -33,9 +33,9 @@ Each column filled by the user has a data type description, the user **must** re
 
 | Data type   | Description                                             |
 |:----------- |:--------------------------------------------------------|
-| VARCHAR     | Character varying, any character.					    |
-| REAL        | Real number (ex: 45.86569).  						    |
-| INT         | Integer number (ex: 45). 		                        |
+| VARCHAR     | Character varying, any character.			|
+| REAL        | Real number (ex: 45.86569).  				|
+| INT         | Integer number (ex: 45). 		                |
 | TIME        | Time format yyyy-mm-ddThh:mm:ssZ (given by Garmin GPS).	|
 | TEXT        | Text characters unlimited length                        |
 
@@ -50,12 +50,12 @@ This table describes the lexicons used in the database, when a field has an " * 
 | Column               | Description                                                                             |
 |:---------------------|:----------------------------------------------------------------------------------------|
 | ID Mission           | Short name describing the field mission. This name will be called by other columns      |
-| Detailed name       | Longer name, describing precisely the mission 							                 |
+| Detailed name       | Longer name, describing precisely the mission 						 |
 | Regional plane       | Regional place where the mission took place (ex : South-east of Mont-Blanc massif)      |
-| Date                 | Dates of the mission (ex : 01-06-2021 - 15-06-2021)								     |
-| Stations             | Range of the stations that have been taken in the field (A1 - A100)				     |
+| Date                 | Dates of the mission (ex : 01-06-2021 - 15-06-2021)					 |
+| Stations             | Range of the stations that have been taken in the field (A1 - A100)			 |
 | Participants         | Name of the people that participates to the mission (ex : Antoine Mercier, Hervé Leloup)|
-| Field notebook       | Field notebook reference (ex : Alpes1)												     |
+| Field notebook       | Field notebook reference (ex : Alpes1)							 |
 | Associated project   | Name of the project associated to the mission (ex : Antoine Mercier PhD)                |
 
 #### MAPS
@@ -63,30 +63,30 @@ This table describes the lexicons used in the database, when a field has an " * 
 | Column               | Description                                                                 |
 |:---------------------|:----------------------------------------------------------------------------|
 | ID Map               | Short name describing the map. This name will be called by other columns    |          
-| Detailed name        | Longer name, describing precisely the map					                 |
+| Detailed name        | Longer name, describing precisely the map			             |
 | Type                 | Type of the map (geological of topographical)                               |
-| Year                 | Year of publication of the map 											 |
-| Scale                | Scale of the map : format 1:50 000										     |
+| Year                 | Year of publication of the map      					     |
+| Scale                | Scale of the map : format 1:50 000					     |
 | Authors              | Name of the authors that produced the map                                   |
 
 
 #### LOCATION
 
-| Column                  | Description                                      				   		               										   |
-|:------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
-| ID Station              | Identification of the station (ex : A1)            					               											   |         
-| Lon [1,2,3]             | Longitude in decimal degree in the WGS84 ellipsoid 					               											   |
-| Lat [1,2,3]             | Latitude in decimal degree in the WGS84 ellipsoid  				 	               											   |
-| Elevation GPS [1,2,3]   | Elevation from the reference ellipsoid measured by GPS in meters   	               										       |
-| Elevation baro [1,2,3]  | Elevation from the reference ellipsoid measured by barometer in meters               										   |
-| Time [1.2,3]            | Time of the station (format yyyy-mm-ddThh:mm:ssZ)                        		       										   |
-| Selected position       | Indicates by a number (1,2 or 3) the position you want to keep as a correct position (default : 1).							   |
+| Column                  | Description                                      				   		               			   		|
+|:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
+| ID Station              | Identification of the station (ex : A1)            					               				   		|         
+| Lon [1,2,3]             | Longitude in decimal degree in the WGS84 ellipsoid 					               		                   		|
+| Lat [1,2,3]             | Latitude in decimal degree in the WGS84 ellipsoid  				 	               				   		|
+| Elevation GPS [1,2,3]   | Elevation from the reference ellipsoid measured by GPS in meters   	               						   		|
+| Elevation baro [1,2,3]  | Elevation from the reference ellipsoid measured by barometer in meters               					  		|
+| Time [1.2,3]            | Time of the station (format yyyy-mm-ddThh:mm:ssZ)                        		       					   		|
+| Selected position       | Indicates by a number (1,2 or 3) the position you want to keep as a correct position (default : 1).			           		|
 | Selected Elevation      | Indicates by a number (1,2 or 3) and a text (baro or GPS) the elevation you want to keep as a correct elevation (ex : 1 baro) (default : 1).|
-| Mission                 | Name of the mission (indicated in column _ID Mission_ of the table **_Missions_**) 										       |
-| Outcrop type\*          | Type of the outcrop (described in **_Lexicon_** table)                       		       									   |
-| Direction of observation| Azimuthal direction of the observation (for view point for example) in azimuthal degrees (ex : 265)       					   |
-| Geologist               | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  										   |       	
-| Comment                 | Any comment  about the station (ex : along the cliff). 			    														   |                      		       		     								
+| Mission                 | Name of the mission (indicated in column _ID Mission_ of the table **_Missions_**) 							        |
+| Outcrop type\*          | Type of the outcrop (described in **_Lexicon_** table)                       		       						|
+| Direction of observation| Azimuthal direction of the observation (for view point for example) in azimuthal degrees (ex : 265)       					|
+| Geologist               | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  							|       
+| Comment                 | Any comment  about the station (ex : along the cliff). 			    								|                      		       		     								
 #### NOTEBOOK
 
 Contact
