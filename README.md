@@ -63,7 +63,7 @@ This table describes the lexicons used in the database, when a field has an " * 
 | Column               | Description                                                                 |
 |:---------------------|:----------------------------------------------------------------------------|
 | ID Map               | Short name describing the map. This name will be called by other columns    |          
-| Detailed name       | Longer name, describing precisely the map					                 |
+| Detailed name        | Longer name, describing precisely the map					                 |
 | Type                 | Type of the map (geological of topographical)                               |
 | Year                 | Year of publication of the map 											 |
 | Scale                | Scale of the map : format 1:50 000										     |
@@ -73,7 +73,7 @@ This table describes the lexicons used in the database, when a field has an " * 
 #### LOCATION
 
 | Column                  | Description                                      				   		               										   |
-|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------  |
+|:------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
 | ID Station              | Identification of the station (ex : A1)            					               											   |         
 | Lon [1,2,3]             | Longitude in decimal degree in the WGS84 ellipsoid 					               											   |
 | Lat [1,2,3]             | Latitude in decimal degree in the WGS84 ellipsoid  				 	               											   |
@@ -84,13 +84,13 @@ This table describes the lexicons used in the database, when a field has an " * 
 | Selected Elevation      | Indicates by a number (1,2 or 3) and a text (baro or GPS) the elevation you want to keep as a correct elevation (ex : 1 baro) (default : 1).|
 | Mission                 | Name of the mission (indicated in column _ID Mission_ of the table **_Missions_**) 										       |
 | Outcrop type\*          | Type of the outcrop (described in **_Lexicon_** table)                       		       									   |
-| Direction of observation| Azimuthal direction of the observation (for view point for example) in azimuthal degrees (ex : 265) 							   |
+| Direction of observation| Azimuthal direction of the observation (for view point for example) in azimuthal degrees (ex : 265)       					   |
 | Geologist               | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  										   |       	
 | Comment                 | Any comment  about the station (ex : along the cliff). 			    														   |                      		       		     								
 #### NOTEBOOK
 
 Contact
-----------
+--------
 
 If you have any questions, comments,  remarks or suggestions, please let us know : 
 
