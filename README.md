@@ -71,12 +71,12 @@ This table describes the lexicons used in the database, when a field has an " * 
 
 
 #### LOCATION
-| Column                   | Description                                      				   		               			   		 |
-|:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| ID Station               | Identification of the station (ex : A1)            					               				         |
-| Lon [1,2,3]              | Longitude in decimal degree in the WGS84 ellipsoid 					               		                   	 |
-| Lat [1,2,3]              | Latitude in decimal degree in the WGS84 ellipsoid  				 	               				   	 |
-| Elevation GPS [1,2,3]    | Elevation from the reference ellipsoid measured by GPS in meters   	               						   	 |
+| Column | Description|
+|:---|:---|
+| ID Station | Identification of the station (ex : A1) |
+| Lon| Longitude in decimal degree in the WGS84 ellipsoid|
+| Lat| Latitude in decimal degree in the WGS84 ellipsoid|
+| Elevation GPS| Elevation from the reference ellipsoid measured by GPS in meters |
 
 
 Contact
