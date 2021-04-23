@@ -39,6 +39,11 @@ Each column filled by the user has a data type description, the user **must** re
 | TIME        | Time format yyyy-mm-ddThh:mm:ssZ (given by Garmin GPS).	|
 | TEXT        | Text characters unlimited length                        |
 
+Database schema
+---------------
+
+_schema will come soon_
+
 Tables
 ------
 #### LEXICON
