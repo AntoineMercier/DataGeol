@@ -2,11 +2,8 @@ Welcome to DataGeol documentation !
 ================================
 > A. Mercier, P.H. Leloup and T. Courrier
 
-DataGeol is a database that allows to organize, store and use geological data efficiently. Upon returning from a field mission, the user can enter the information he has noted in his field notebook in different dedicated tables (measurements, observations, samples, etc.). The different tables are organized and linked together, allowing data to be exported in different formats for processing or display.							
+_DataGeol_ is a database that allows to organize, store and use geological data efficiently. Upon returning from a field mission, the user can enter the information he has noted in his field notebook in different dedicated tables (measurements, observations, samples, etc.). The different tables are organized and linked together, allowing data to be exported in different formats for processing or display.							
 							
-Database basics
-----------------
-
 The data are organized into several **tables**. Each row is called a **record** and each column a **field**. The field is a single intem information that describes the content of the column.
 The benefits of storage data into a database : 
 
@@ -15,30 +12,84 @@ The benefits of storage data into a database :
 * Support and ensure the accuracy and integrity of your information.
 * Accomodates your data processing and reporting : needed ouputs. 
 
-Data types
----------
+Getting started
+----------------
 
-The type of data used is defined for each field : field[DATA TYPE]
-You **MUST** ensure to insert the correct data type in each field.
+DataGeol can be run either on Mac, Windows or Linux environnement while it has the microsoft excel installed. The current version of DataGeol has be tested and designed on Excel 2018 64b. 
 
-- [VARCHAR] : Character varying, length limited to 45.
-- [REAL] : Any real number (ex: 45.86569).
-- [INT] : Any integer number (ex: 45).
-- [TIME] : Time format yyyy-mm-ddThh:mm:ssZ (given by the GPS).
-- [TEXT] : Character varying unlimited length
+The database is split in several tables : blue, green or red. 
+
+| Table color | Description                                                                                             |
+|:----------- |:--------------------------------------------------------------------------------------------------------|
+| Black       | Lexicon table describing the vocabolary used in the database for geological objects.                    |
+| Blue        | Auxiliary tables containing supplementary informations - _to filled by the user_                        |
+| Gree        | Table containing important information about the location or the observations - _to filled by the user_ |
+| Red         | Output tables generated for GeoModeller or GIS use  - _generated_                                       |
+
+### Data types
+
+Each column filled by the user has a data type description, the user **must** respect the data indicated when filling the column. The type of data used is defined for each field as this : _field[DATA TYPE]_
+
+| Data type   | Description                                             |
+|:----------- |:--------------------------------------------------------|
+| VARCHAR     | Character varying, any character.					    |
+| REAL        | Real number (ex: 45.86569).  						    |
+| INT         | Integer number (ex: 45). 		                        |
+| TIME        | Time format yyyy-mm-ddThh:mm:ssZ (given by Garmin GPS).	|
+| TEXT        | Text characters unlimited length                        |
 
 Tables
 ------
 #### LEXICON
 
+This table describes the lexicons used in the database, when a field has an " * ", it means that the column has to be field with a specific lexicon. 
+
 #### MISSIONS
+
+| Column               | Description                                                                             |
+|:---------------------|:----------------------------------------------------------------------------------------|
+| ID Mission           | Short name describing the field mission. This name will be called by other columns      |
+| Detailled name       | Longer name, decribing preciselly the mission 							                 |
+| Regional plane       | Regional place where the mission took place (ex : South-east of Mont-Blanc massif)      |
+| Date                 | Dates of the mission (ex : 01-06-2021 - 15-06-2021)								     |
+| Stations             | Range of the stations that have been taken in the field (A1 - A100)				     |
+| Participants         | Name of the people that participates to the mission (ex : Antoine Mercier, Hervé Leloup)|
+| Field notebook       | Field notebook reference (ex : Alpes1)												     |
+| Associated project   | Name of the project associated to the mission (ex : Antoine Mercier PhD)                |
 
 #### MAPS
 
-#### LOCATION
-You can choose the position and elevation you want to use in the selected position. If no selection indicated, by default the first one will be used. 
-#### NOTEBOOK
+| Column               | Description                                                                 |
+|:---------------------|:----------------------------------------------------------------------------|
+| ID Map               | Short name describing the map. This name will be called by other columns    |          
+| Detailled name       | Longer name, decribing preciselly the map					                 |
+| Type                 | Type of the map (geological of topographical)                               |
+| Year                 | Year of publication of the map 											 |
+| Scale                | Scale of the map : format 1:50 000										     |
+| Authors              | Name of the authors that produced the map                                   |
 
+
+#### LOCATION
+
+| Column                  | Description                                      				   		               										   |
+|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------  |
+| ID Station              | Identification of the station (ex : A1)            					               											   |         
+| Lon [1,2,3]             | Longitude in decimal degree in the WGS84 ellispoïd 					               											   |
+| Lat [1,2,3]             | Latitude in decimal degree in the WGS84 ellispoïd  				 	               											   |
+| Elevation GPS [1,2,3]   | Elevation from the reference ellispoïd measured by GPS in meters   	               										       |
+| Elevation baro [1,2,3]  | Elevation from the reference ellispoïd measured by barometer in meters               										   |
+| Time [1.2,3]            | Time of the station (format yyyy-mm-ddThh:mm:ssZ)                        		       										   |
+| Selected position       | Indicates by a number (1,2 or 3) the position you want to keep as a correct position.										   |
+| Selected Elevation      | Indicates by a number (1,2 or 3) and a text (baro or GPS) the elevation you want to keep as a correct elevation (ex : 1 baro)  |
+| Mission                 | Name of the mission (indicated in column _ID Mission_ of the table **_Missions_**) 										       |
+| Outcrop type\*          | Type of the outcrop (described in **_Lexicon_** table)                       		       									   |
+| Direction of observation| Azimutal direction of the observation (for view point for example) in azimutal degrees (ex : 265) 							   |
+| Geologist               | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  										   |       	
+| Comment                 | Any comment  about the station (ex : along the cliff). 			    														   |                      		       		     								
+
+You can choose the position and elevation you want to use in the selected position. If no selection indicated, by default the first one will be used. 
+
+#### NOTEBOOK
 
 
 Contact
@@ -49,3 +100,5 @@ If you have any questions, comments,  remarks or suggestions, please let us know
 - Author:	Antoine Mercier
 - Contact:	antoine.mercier@univ-lyon1.fr
 - version:	4.0
+
+![UniversiteLyon](https://github.com/AntoineMercier/DataGeol/assets/UDL.png)
