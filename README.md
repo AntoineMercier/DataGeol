@@ -72,21 +72,7 @@ This table describes the lexicons used in the database, when a field has an " * 
 
 #### LOCATION
 
-| Column                  | Description                                      				   		               			   		|
-|:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| ID Station              | Identification of the station (ex : A1)            					               				   		|
-| Lon [1,2,3]             | Longitude in decimal degree in the WGS84 ellipsoid 					               		                   		|
-| Lat [1,2,3]             | Latitude in decimal degree in the WGS84 ellipsoid  				 	               				   		|
-| Elevation GPS [1,2,3]   | Elevation from the reference ellipsoid measured by GPS in meters   	               						   		|
-| Elevation baro [1,2,3]  | Elevation from the reference ellipsoid measured by barometer in meters               					  		|
-| Time [1.2,3]            | Time of the station (format yyyy-mm-ddThh:mm:ssZ)                        		       					   		|
-| Selected position       | Indicates by a number (1,2 or 3) the position you want to keep as a correct position (default : 1).			           		|
-| Selected Elevation      | Indicates by a number (1,2 or 3) and a text (baro or GPS) the elevation you want to keep as a correct elevation (ex : 1 baro) (default : 1).|
-| Mission                 | Name of the mission (indicated in column _ID Mission_ of the table **_Missions_**) 							        |
-| Outcrop type\*          | Type of the outcrop (described in **_Lexicon_** table)                       		       						|
-| Direction of observation| Azimuthal direction of the observation (for view point for example) in azimuthal degrees (ex : 265)       					|
-| Geologist               | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  							|
-| Comment                 | Any comment  about the station (ex : along the cliff). 			    								|		       		     								
+	       		     								
 #### NOTEBOOK
 
 Contact
