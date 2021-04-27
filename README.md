@@ -13,8 +13,8 @@ The benefits of storage data into a database :
 * Accommodates your data processing and reporting : needed outputs. 
 
 ##### Table of Contents  
-[Getting started](#Getting started)  
-[Database schema](#Database schema)  
+[Getting started](#getting-started)  
+[Database schema](#database-schema)  
 
 
 Getting started
