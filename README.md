@@ -1,5 +1,5 @@
 Welcome to DataGeol documentation !
-================================
+====================================
 > A. Mercier, P.H. Leloup and T. Courrier
 
 _DataGeol_ is a database that allows to organize, store and use geological data efficiently. Upon returning from a field mission, the user can enter the information he has noted in his field notebook in different dedicated tables (measurements, observations, samples, etc.). The different tables are organized and linked together, allowing data to be exported in different formats for processing or display.							
@@ -16,6 +16,7 @@ The benefits of storage data into a database :
 * [Getting started](#getting-started)  
 * [Database schema](#database-schema)  
 * [Tables](#tables)  
+* [Export](#export)  
 * [Contact](#contact)  
 
 Getting started
@@ -24,6 +25,8 @@ Getting started
 DataGeol can be run either on Mac, Windows or Linux environment while it has the Microsoft excel installed. The current version of DataGeol has be tested and designed on Excel 2018 64b. 
 
 The database is split in several tables : blue, green or red. 
+
+> In order to keep the database consistent, you **must not** change the columns headers. 
 
 | Table color | Description                                                                                             |
 |:----------- |:--------------------------------------------------------------------------------------------------------|
@@ -49,7 +52,6 @@ Database schema
 ---------------
 
 ![DataBaseSchema](assets/schema.png)
-
 
 Tables
 ------
@@ -100,13 +102,20 @@ This table describes the lexicons used in the database, when a field has an " * 
 | Geologist                | Initials or name of the geologist that has taken the station (ex : Antoine Mercier)  							                             |
 | Comment                  | Any comment  about the station (ex : along the cliff). 			    								                                     |
 
+
+Export
+------
+
+
+
+
 Contact
 --------
 
-If you have any questions, comments, remarks or suggestions for changes, please let us know : 
+If you have any questions, comments, remarks or suggestions, please let us know : 
 
-- Author:	Antoine Mercier
-- Contact:	antoine.mercier@univ-lyon1.fr
+- Author:	Antoine Mercier, Philippe Hervé Leloup et Thomas Courrier
+- Contact:	antoine.mercier@univ-lyon1.fr, philippe-herve.leloup@univ-lyon1.fr, thomas.courrier@ens-lyon.fr
 - version:	4.0
 
 ![UniversiteLyon](assets/UDL.png)
