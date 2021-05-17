@@ -1,0 +1,6 @@
+﻿Station;Latitude;Longitude;Date Time;Elevation;Mission;Outcrop type;Observation type;Formation;Plane type;Polarity;DipDir;Dip;Line type;Line comment;Line pitch;Line pitch Quad;Line strike;Line dip;Sens;ID geol map;Geol map formation;Direction of observation
+A0970;44.23071899;3.995057037;03/05/2021 08:54;185.862198;;;M;socle;fo;normal;140;26;;;;;;;;ALES;Gneiss Leptynitiques;
+A0971;44.23064204;3.995485017;03/05/2021 09:21;208.632904;;;P;h5a;S0;normal;90;35;;;;;;;;ALES;h5b5;
+A0972;44.23057599;3.996113995;03/05/2021 09:54;222.773026;;;M;h5a;S0;normal;80;30;;;;;;;;ALES;h5b5;
+A0973;44.230528;3.995161;;;;;M;socle;F;normal;122;32;;;;;;;;ALES;Gneiss Leptynitiques;
+A0973;44.230528;3.995161;;;;;M;socle;F;normal;83;51;;;;;;;;ALES;Gneiss Leptynitiques;

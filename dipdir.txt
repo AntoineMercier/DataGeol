@@ -1,0 +1,6 @@
+=if [RightHand] = "" then "" else 
+if [Plane dir Hook] <> "" then [Plane dir Hook] else 
+if [RightHand] = 0 then 90 else 
+if [RightHand]<270 then [RightHand]+90 else 
+if [RightHand]>270 then [RightHand]+90-360 else 
+if [RightHand] = 270 then 0 else ""

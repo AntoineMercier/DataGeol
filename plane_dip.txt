@@ -1,0 +1,3 @@
+= Table.AddColumn(#"Colonnes supprimées1", "Plane dip", each if [Plane dip] <> "" then [Plane dip] else
+if [Plane dip] < 0 or [Plane dip] > 90 then "" else
+if [Plane dip] = "" then "" else "")

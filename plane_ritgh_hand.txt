@@ -1,0 +1,20 @@
+= 
+(if [Plane azimuth]="" then "" else
+if [Plane azimuth]=0 and [Plane dip quad]="E" then 0 else
+if  [Plane azimuth]=0 and [Plane dip quad]="W" then 180 else
+if  [Plane azimuth]=90 and [Plane dip quad]="N" then 270 else
+if  [Plane azimuth]=90 and [Plane dip quad]="S" then 90 else
+if  [Plane azimuth]=180 and [Plane dip quad]="E" then 0 else
+if  [Plane azimuth]=180 and [Plane dip quad]="W" then 180 else
+if  0<[Plane azimuth] and [Plane azimuth]<180 and [Plane dip quad]="N" then [Plane azimuth]+180 else
+if  90<[Plane azimuth] and [Plane azimuth]<180 and [Plane dip quad]="NE" then [Plane azimuth]+180 else
+if  0<[Plane azimuth] and [Plane azimuth]<90 and [Plane dip quad]="E" then [Plane azimuth] else
+if  90<[Plane azimuth] and [Plane azimuth]<180 and [Plane dip quad]="E" then [Plane azimuth]+180 else
+if  0<[Plane azimuth] and [Plane azimuth]<90 and [Plane dip quad]="SE" then [Plane azimuth] else
+if  0<[Plane azimuth] and [Plane azimuth]<180 and [Plane dip quad]="S" then [Plane azimuth] else
+if  90<[Plane azimuth] and [Plane azimuth]<180 and [Plane dip quad]="SW" then [Plane azimuth] else
+if  0<[Plane azimuth] and [Plane azimuth]<90 and [Plane dip quad]="W" then [Plane azimuth]+180 else
+if  90<[Plane azimuth] and [Plane azimuth]<180 and [Plane dip quad]="W" then [Plane azimuth] else
+if  0<[Plane azimuth] and [Plane azimuth]<90 and [Plane dip quad]="NW" then [Plane azimuth]+180 else
+if [Plane dip]=90 then [Plane azimuth] else if [Plane azimuth]="" then "" else
+if [Plane dip]=0 then 0 else "")
