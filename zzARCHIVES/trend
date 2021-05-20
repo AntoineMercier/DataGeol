@@ -1,0 +1,11 @@
+if [Line trend]= "" and [Line Number.PItch]="" then "" else 
+if [Line trend] <> "" then [Line trend] else
+if [Rake]= "" then "" else
+if [Rake]= null then "" else
+
+if 360<[Line trend] then "" else
+if 0>[Line trend] then "" else
+if [Line trend]<>"" then [Line trend] else 
+if(
+if [Rake]<90 then [RightHand] +(Number.Abs(180/Number.Number.PI*(Number.Atan(Number.Cos([Plane dip]*Number.PI()/180)*(Number.Tan([Rake]*Number.PI()/180)))))) else [RightHand]+(180-Number.Abs(180/Number.Number.PI*(Number.Atan(Number.Cos([Plane dip]*Number.PI()/180)*(Number.Tan([Rake]*Number.PI()/180)))))))>360; else 
+if ([Rake]<90 then [RightHand]+(Number.Abs(180/Number.Number.PI*(Number.Atan(Number.Cos([Plane dip]*Number.PI()/180)*(Number.Tan([Rake]*Number.PI()/180)))))) else[RightHand]+(180-Number.Abs(180/Number.Number.PI*(Number.Atan(Number.Cos([Plane dip]*Number.PI()/180)*(Number.Tan([Rake]*Number.PI()/180)))))))-360 else if ([Rake]<90 then [RightHand]+(Number.Abs(180/Number.Number.PI*(Number.Atan(Number.Cos([Plane dip]*Number.PI()/180)*(Number.Tan([Rake]*Number.PI()/180)))))) else [RightHand]+(180-Number.Abs(180/Number.Number.PI*(Number.Atan(Number.Cos([Plane dip]*Number.PI()/180)*(Number.Tan([Rake]*Number.PI()/180))))))))))))))

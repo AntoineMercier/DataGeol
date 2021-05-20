@@ -1,0 +1,35 @@
+if [Line pitch]= "" then "" else
+if [Dip Az] = "" then "" else
+if [Line pitch quad] = "" then "" else
+if [Line pitch]=0 then [Line pitch] else
+if [Line pitch]=90 then [Line pitch] else
+if [Dip Az]-90<0 and [Line pitch quad]="NW" then [Line pitch] else 
+if [Dip Az]-90<0 and [Line pitch quad]="N" then [Line pitch] else 
+if [Dip Az]-90<0 and [Line pitch quad]="W" then [Line pitch] else 
+if [Dip Az]-90<0 and [Line pitch quad]="SE" then 180-[Line pitch] else
+if [Dip Az]-90<0 and [Line pitch quad]="S" then 180-[Line pitch] else
+if [Dip Az]-90<0 and [Line pitch quad]="E" then 180-[Line pitch] else
+if 0<=[Dip Az]-90 and [Dip Az]-90<90 and [Line pitch quad]="N" then [Line pitch] else
+if 0<=[Dip Az]-90 and [Dip Az]-90<90 and [Line pitch quad]="NE" then [Line pitch] else
+if 0<=[Dip Az]-90 and [Dip Az]-90<90 and [Line pitch quad]="E" then [Line pitch] else
+if 0<=[Dip Az]-90 and [Dip Az]-90<90 and [Line pitch quad]="S" then 180-[Line pitch] else
+if 0<=[Dip Az]-90 and [Dip Az]-90<90 and [Line pitch quad]="SW" then 180-[Line pitch] else
+if 0<=[Dip Az]-90 and [Dip Az]-90<90 and [Line pitch quad]="W" then 180-[Line pitch] else
+if 90<=[Dip Az]-90 and [Dip Az]-90<180 and [Line pitch quad]="E" then [Line pitch] else
+if 90<=[Dip Az]-90 and [Dip Az]-90<180 and [Line pitch quad]="SE" then [Line pitch] else
+if 90<=[Dip Az]-90 and [Dip Az]-90<180 and [Line pitch quad]="S" then [Line pitch] else
+if 90<=[Dip Az]-90 and [Dip Az]-90<180 and [Line pitch quad]="W" then 180-[Line pitch] else
+if 90<=[Dip Az]-90 and [Dip Az]-90<180 and [Line pitch quad]="NW" then 180-[Line pitch] else
+if 90<=[Dip Az]-90 and [Dip Az]-90<180 and [Line pitch quad]="N" then 180-[Line pitch] else
+if 180<=[Dip Az]-90 and [Dip Az]-90<270 and [Line pitch quad]="S" then [Line pitch] else
+if 180<=[Dip Az]-90 and [Dip Az]-90<270 and [Line pitch quad]="SW" then [Line pitch] else
+if 180<=[Dip Az]-90 and [Dip Az]-90<270 and [Line pitch quad]="W" then [Line pitch] else
+if 180<=[Dip Az]-90 and [Dip Az]-90<270 and [Line pitch quad]="N" then 180-[Line pitch] else
+if 180<=[Dip Az]-90 and [Dip Az]-90<270 and [Line pitch quad]="NE" then 180-[Line pitch] else
+if 180<=[Dip Az]-90 and [Dip Az]-90<270 and [Line pitch quad]="E" then 180-[Line pitch] else
+if 270<=[Dip Az]-90 and [Dip Az]-90<360 and [Line pitch quad]="W" then [Line pitch] else
+if 270<=[Dip Az]-90 and [Dip Az]-90<360 and [Line pitch quad]="NW" then [Line pitch] else
+if 270<=[Dip Az]-90 and [Dip Az]-90<360 and [Line pitch quad]="N" then [Line pitch] else
+if 270<=[Dip Az]-90 and [Dip Az]-90<360 and [Line pitch quad]="E" then 180-[Line pitch] else
+if 270<=[Dip Az]-90 and [Dip Az]-90<360 and [Line pitch quad]="SE" then 180-[Line pitch] else
+if 270<=[Dip Az]-90 and [Dip Az]-90<360 and [Line pitch quad]="S" then 180-[Line pitch] else ""

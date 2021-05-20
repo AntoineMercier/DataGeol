@@ -1,0 +1,1 @@
+if [Latitude]= null then null else ((1/2)*Number.Ln((1+Number.Sin([Latitude]*Number.PI/180))/(1-Number.Sin([Latitude]*Number.PI/180))))-((0.08181919112/2)*Number.Ln((1+0.08181919112*Number.Sin([Latitude]*Number.PI/180))/(1-0.08181919112*Number.Sin([Latitude]*Number.PI/180))))

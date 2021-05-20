@@ -1,0 +1,1 @@
+=if E=null then null else 11754255.426*Number.Exp(-0.725607765*E)

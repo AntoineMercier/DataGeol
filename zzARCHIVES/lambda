@@ -1,0 +1,1 @@
+=if [Longitude]=null then null else 0.725607765 *([Longitude]-3)
