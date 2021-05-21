@@ -3,3 +3,4 @@ assets/css/style.scss  export-ignore
 .gitattributes export-ignore
 assets  export-ignore
 assets/css  export-ignore
+README.html export-ignore
