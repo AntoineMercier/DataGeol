@@ -1,5 +1,8 @@
-if [Trend] = null  then null else
-if [Line plunge] <> null then [Line plunge] else
-if [Line trend] - ([Dip az]-90) < 0 and [Line trend] <> null then Number.Abs(180/Number.PI*(Number.Atan(Number.Sin(((([Line trend]+180)-([Dip az]-90))))*Number.PI/180)*Number.Tan([Plane dip]*Number.PI/180))) else
-if [Line trend] - ([Dip az]-90) > 0 and [Line trend] <> null then Number.Abs(180/Number.PI*(Number.Atan(Number.Sin((([Line trend]-([Dip az]-90))))*Number.PI/180)*Number.Tan([Plane dip]*Number.PI/180))) else 
-if [Rake]="" then "" else 180/Number.PI*(Number.Asin((Number.Sin([Dip]*PI()/180))*(Number.Sin([Rake]*Number.PI/180)))))))))))
+if [Trend] = null then null else
+if [Line plunge]<> null then [Line plunge] else
+if [Line trend] > 360 then null else
+if [Line trend] < 0 then null else
+if [Line trend] <> null and [plunge_interm] <> null and [Dip] <> null then 
+Number.Abs(180/Number.PI*(Number.Atan(Number.Sin([plunge_interm]*Number.PI/180)*Number.Tan([Dip]*Number.PI/180)))) else
+if [Plane Dip]= null then 180/Number.PI*(Number.Asin((Number.Sin([Plane Dip]*Number.PI/180))*(Number.Sin([Rake]*Number.PI/180)))) else
+if [Rake] = null then 180/Number.PI*(Number.Asin((Number.Sin([Plane Dip]*Number.PI/180))*(Number.Sin([Rake]*Number.PI/180)))) else null
